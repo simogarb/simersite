@@ -1,0 +1,740 @@
+/* SIMER WEBSITE CSS */
+
+@font-face {
+  font-family: 'Avenir Next';
+  src: local('Avenir Next'), url(""); /* File to be stored at your site */
+  }
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #3d3d3d;
+    margin: 0px;
+}
+
+/*HOME*/
+.containerHeader {
+    width: 100%;
+    height: 78px;
+    top: 0px;
+    position: fixed;
+    z-index: 4;
+}
+
+#header {
+    background-color: white;
+    height: 78px;
+    width: 100%;
+    top: 0px;
+    position: fixed;
+    margin: 0px;
+}
+
+#logo {
+    height: 62px;
+    margin-left: 25px;
+    width: 136px;
+    top: 5px;
+    float: left;
+}
+
+#menuSim {
+    color: #757575;
+    font: 800 18px Avenir;
+    color: #757575;
+    margin-top: 24px;
+    float: left;
+}
+
+/* INIZIO menu dropdown BT */
+.dropdown {
+    margin-left: 70%;
+    top: -42px;
+}
+
+.dropdown-menu {
+    max-width: 50px;
+    margin-left: 5px;
+}
+
+.socialDD {
+    margin-left: 34px;
+    float: left;
+}
+
+/* FINE menu dropdown BT  */
+
+#menuSim li {
+    list-style: none;
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;   
+}
+
+a {
+    text-decoration: none;
+    color: #757575;
+}
+
+a:hover {
+    color: darkblue;
+}
+
+.social {
+    float: left;
+    height: 78px;
+    width: auto;
+    right: 30px;
+    position: absolute;
+    
+}
+
+
+#depop {
+    top: 0px;
+    margin-top: 10px;
+    float: left;
+}
+
+#fb {
+    top: 0px;
+    margin-top: 10px;
+    margin-left: 20px;
+    float: left;
+}
+
+#ig {
+    top: 0px;
+    margin-top: 10px;
+    margin-left: 20px;
+    float: left;
+}
+
+.footer {
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 0.7em;
+    font-weight: bold;
+    bottom: 0px;
+    z-index: 12;
+}
+
+.mainBox {
+    max-width: 1200px;
+    margin: 0;
+    overflow: auto;
+    height: auto;
+    min-height: 100%;
+    background-color: #dddddd;
+}
+
+
+
+
+#testata {
+    position: relative;
+    max-width: 100%;
+    height: 400px;
+    margin-top: 80px;
+    box-sizing: border-box;
+    background-image: url(images/F2.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#logoTestata{
+    background-image: url(images/logoSito.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 130px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -52px;
+    margin-left: -120px;
+}
+
+#servizi {
+    position: relative;
+    max-width: 900px;
+    height: auto;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#servizi img {
+    display: inline-block;
+    margin-left: auto;
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+}
+
+#servizi span {
+    display: inline-block;
+    width: 200px;
+    height: 400px;
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+#photoServ {
+    float: left;
+    max-width: 300px;
+    height: auto;
+    font-family: Avenir Next, Verdana, sans-serif;
+    text-align: center;
+}
+
+/*INIZIO STILE CHI SIAMO*/
+
+.mainChi {
+    font-family: Avenir Next, Verdana, sans-serif;
+    max-width: 1200px;
+    min-height: 100%;
+    height: auto !important;
+    overflow: auto;
+    background-color: #dddddd;
+    
+}
+
+.mainChi h2 {
+    margin: 0px 0px 0px 0px;
+}
+
+.contChiOne {
+    position: relative;
+    max-width: 900px;
+    height: 300px;
+    margin-top: 78px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#photoOne {
+    position: absolute;
+    width: 40%;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 5px;
+    background-image: url(images/F1.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.contChiOne div {
+    position: absolute;
+    text-align: center;
+    width: 50%;
+    min-height: 200px;
+    height: auto;
+    margin-left: 50%;
+    margin-top: 50px;
+}
+
+.contChiTwo {
+    position: relative;
+    max-width: 900px;
+    height: 300px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#photoTwo {
+    position: absolute;
+    width: 40%;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 59%;
+}
+
+.contChiTwo div {
+    position: absolute;
+    margin-top: 50px;
+    min-height: 200px;
+    height: auto;
+    text-align: center;
+    width: 50%;
+    margin-left: 0px;
+}
+
+.contChiThree {
+    position: relative;
+    max-width: 900px;
+    height: 300px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#photoThree {
+    position: absolute;
+    width: 40%;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 5px;
+}
+
+.contChiThree div {
+    position: absolute;
+    margin-top: 50px;
+    min-height: 200px;
+    height: auto;
+    text-align: center;
+    width: 50%;
+    margin-left: 50%;
+}
+
+.brandOne {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    min-height: 300px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#titolo {
+    background-color: #3d3d3d;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+#photoBrand {
+    background-color: white;
+    position: relative;
+    max-width: 100%;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+#photoSecondBrand {
+    background-color: white;
+    position: relative;
+    max-width: 100%;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;®
+}
+
+#mainLogo {
+    position: relative;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+#mainLogo img {
+    height: 100px;
+    width: 300px;
+    border-bottom: 2px #3d3d3d;
+    border-style: dashed;
+    
+}
+
+#secondBrands {
+    position: relative;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    text-align: center;
+}
+
+#secondBrands img {
+    width: 150px;
+    height: 90px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+#thirdBrands {
+    position: relative;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    text-align: center;
+}
+
+#thirdBrands img {
+    width: 150px;
+    height: 90px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+#fourBrands {
+    position: relative;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    text-align: center;
+}
+
+#fourBrands img {
+    width: 150px;
+    height: 90px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+#fiveBrands {
+    position: relative;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    text-align: center;
+}
+
+#fiveBrands img {
+    width: 150px;
+    height: 90px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+/* PAGINA DOVE SIAMO */
+#mappa {
+    position: relative;
+    font-family: Avenir Next, Verdana, sans-serif;
+    max-width: 1200px;
+    min-height: 100%;
+    height: auto !important;
+    overflow: auto;
+    background-color: #dddddd;
+}
+
+#mappa iframe {
+    height: 400px;
+    width: 100%;
+}
+
+#contMap {
+    float: left;
+    position: relative;
+    margin-top: 140px;
+    height: 500px;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0px 10px 0px 10px;
+}
+
+#contText {
+    color: white;
+    float: left;
+    width: 50%;
+    height: 400px;
+    background-color: #3d3d3d;
+    margin-top: 140px;
+    padding: 0px 10px 0px 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* PAGINA CONTATTI*/
+
+#contCont {
+    font-family: Avenir Next, Verdana, sans-serif;
+    margin-top: 140px;
+    max-width: 90%;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mainBox #contCont h2 {
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid #3d3d3d;
+}
+
+#centerBox {
+    position: relative;
+    max-width: 900px;
+}
+
+#contatti {
+    float: left;
+    width:30%;
+    height: 300px;
+    padding: 15px;
+}
+
+/* STILE CONTACT FORM */
+#formCont {
+    border-left: 2px #3d3d3d;
+    border-left-style: solid;
+    position: relative;
+    float: left;
+    max-width: 70%;
+}
+
+#formCont form {
+    margin-top: 5px;
+    max-width: 320px;
+    margin-left: 10px;
+}
+
+#errori{ 
+    padding:10px;
+    margin:10px 0px;
+    border-bottom:2px solid #ce5757; 
+    text-shadow:1px 1px 1px #000;
+    background:#e6abab;
+    color:#ffffff;
+}
+
+#risultato{ 
+    padding:10px; 
+    margin:10px 0px; 
+    border-bottom:2px solid #6090cc;  
+    text-shadow:1px 1px 1px #000; 
+    background:#abc6e6;color:#fff;
+}
+ 
+.asterisco{ 
+    font-size:12px; 
+    color:#da9393;
+}
+
+.info_form{ 
+    color:#7f7d7d; 
+    font-style:italic; 
+    font-size:14px; 
+    margin-top:-12px;
+}
+/* FINE STILE FORM */
+
+/* INIZIO STILE POPUP BRAND*/
+.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	max-width: 80%;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+	background: -moz-linear-gradient(#fff, #999);
+	background: -webkit-linear-gradient(#fff, #999);
+	background: -o-linear-gradient(#fff, #999);
+}
+
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: #00d9ff; }
+/* FINE STILE POPUP BRAND */
+
+/*MEDIA QUERY*/
+
+@media screen and (min-width: 1200px) {
+    .mainBox {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .mainChi {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #mappa {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 950px){
+    #testata {
+        margin-bottom: -7px;
+    }
+    
+    #servizi {
+        max-width: 100%;
+    }
+    
+    #photoServ {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 30px;
+        max-width: 100%;
+        height: 400px;
+    }
+    
+    #servizi img {
+        display: inherit;
+        float: left;
+        margin-top: 80px; 
+        margin-left: 80px;
+    }
+    
+    #servizi span {
+        width: 300px;
+        height: 250px;
+        margin-top: 60px;
+    }
+
+
+}
+@media screen and (max-width: 700px) {
+   
+    #servizi img {
+        display: inline-block;
+        margin-left: 75px;
+        margin-right: auto;
+        margin-top: 30px;
+        width: 200px;
+        height: 200px;
+        border-radius: 200px;
+    }
+    
+    #servizi span {
+        display: inline-block;
+        width: 200px;
+        height: 400px;
+        margin-left: auto;
+        margin-top: 10px;
+    } 
+    
+    #photoServ {
+        width: 350px;
+        height: 640px;
+    }
+    
+}
+
+
+@media screen and (max-width: 874px) {
+    
+    #menuSim {
+        display: none;
+    }
+    #header {
+        text-align: center;
+    }
+    
+    #logo {
+        float: none;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .social {
+       display: none;
+    }
+    
+}
+
+@media screen and (min-width: 874px) {
+    
+    .dropdown {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    #contMap {
+    float: inherit;
+    position: relative;
+    margin-top: 140px;
+    height: 400px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#contText {
+    float: inherit;
+    width: 90%;
+    height: 400px;
+    background-color: #3d3d3d;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+}
+
+@media only screen and (max-width: 480px) {
+    #contatti {
+       float: none; 
+        margin-bottom: 50px;
+        width: 300px;
+        margin: auto;
+    }
+    
+    #formCont form {
+        float: none;
+    }
+    
+    #formCont {
+        padding-top: 20px;
+        width: 320px;
+        border-top: 2px solid #3d3d3d;
+        border-left-style: none;
+        margin: 0 14% 0 14%;
+    }
+}
+
+
