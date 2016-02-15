@@ -123,11 +123,9 @@ a:hover {
 }
 
 .mainBox {
-    max-width: 1200px;
     margin: 0;
     overflow: auto;
     height: auto;
-    min-height: 100%;
     background-color: #dddddd;
 }
 
@@ -136,27 +134,17 @@ a:hover {
 
 #testata {
     position: relative;
+    height: auto;
     max-width: 100%;
-    height: 400px;
     margin-top: 80px;
     box-sizing: border-box;
-    background-image: url(images/F2.jpeg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+    text-align: center;
 }
 
-#logoTestata{
-    background-image: url(images/logoSito.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 300px;
-    height: 130px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    margin-top: -52px;
-    margin-left: -120px;
+#testata img {
+    position: relative;
+    box-sizing: content-box;
+    max-width: 100%;
 }
 
 #servizi {
@@ -217,30 +205,32 @@ a:hover {
     box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
 }
 
 #photoOne {
-    position: absolute;
+    float: left;
     width: 40%;
-    height: 200px;
-    margin-top: 50px;
+    margin-top: 0px;
     margin-left: 5px;
-    background-image: url(images/F1.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
+}
+
+.chiFlex {
+    box-sizing: content-box;
+    max-width: 100%;
 }
 
 .contChiOne div {
-    position: absolute;
     text-align: center;
     width: 50%;
     min-height: 200px;
     height: auto;
     margin-left: 50%;
-    margin-top: 50px;
+    margin-top: 150px;
 }
 
 .contChiTwo {
+    display: none !important;
     position: relative;
     max-width: 900px;
     height: 300px;
@@ -259,7 +249,6 @@ a:hover {
 }
 
 .contChiTwo div {
-    position: absolute;
     margin-top: 50px;
     min-height: 200px;
     height: auto;
@@ -269,6 +258,7 @@ a:hover {
 }
 
 .contChiThree {
+    display: none !important;
     position: relative;
     max-width: 900px;
     height: 300px;
@@ -286,7 +276,6 @@ a:hover {
 }
 
 .contChiThree div {
-    position: absolute;
     margin-top: 50px;
     min-height: 200px;
     height: auto;
@@ -602,9 +591,6 @@ a:hover {
 }
 
 @media screen and (max-width: 950px){
-    #testata {
-        margin-bottom: -7px;
-    }
     
     #servizi {
         max-width: 100%;
@@ -629,7 +615,7 @@ a:hover {
     
     #servizi span {
         width: 300px;
-        height: 250px;
+        height: auto;
         margin-top: 60px;
     }
 
@@ -650,7 +636,7 @@ a:hover {
     #servizi span {
         display: inline-block;
         width: 200px;
-        height: 400px;
+        height: auto;
         margin-left: auto;
         margin-top: 10px;
     } 
@@ -717,6 +703,8 @@ a:hover {
 }
 
 @media only screen and (max-width: 480px) {
+    
+    
     #contatti {
        float: none; 
         margin-bottom: 50px;
@@ -735,6 +723,34 @@ a:hover {
         border-left-style: none;
         margin: 0 14% 0 14%;
     }
+    
+    #titolo {
+        margin-top: 70px;
+    }
+    
+    #photoOne {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+        width: 90%;
+    }
+    
+    .contChiOne, .contChiTwo, .contChiThree {
+        height: auto;
+    }
+    
+    .textChi {
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
+@media only screen and (max-width: 360px) {
+     #servizi img {
+        margin-left: 19%;
+    }
+    
+}
 
